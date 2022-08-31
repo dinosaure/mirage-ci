@@ -97,7 +97,7 @@ module Website_description = struct
         | `Github { kind = `Mirage_dev; _ } -> Mirage_dev
         | `Github { kind = `Mirage_skeleton; _ } -> Mirage_skeleton
         | `Github { kind = `Overlay "opam-overlays"; _ } -> Opam_overlays
-        | `Github { kind = `Overlay "mirage-opam-overlays"; _ } ->
+        | `Github { kind = `Overlay "mirage-overlays"; _ } ->
             Mirage_opam_overlays
         | `Github { kind = `Overlay _; _ } ->
             failwith "unknown overlay repository"

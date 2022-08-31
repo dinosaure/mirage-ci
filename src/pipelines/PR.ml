@@ -599,10 +599,10 @@ let tests options =
                           name = "opam-overlays";
                           branch = "master";
                         } );
-                      ( "mirage-opam-overlays",
+                      ( "mirage-overlays",
                         {
                           org = "dune-universe";
-                          name = "mirage-opam-overlays";
+                          name = "mirage-overlays";
                           branch = "main";
                         } );
                     ];
